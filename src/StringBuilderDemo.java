@@ -7,10 +7,10 @@ public class StringBuilderDemo {
         sb.append("abc").append(123);
         sb.append("def").append(456);
 
-        System.out.println(sb.toString());
+        System.out.println(sb);
 
         sb.reverse();
 
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 }
